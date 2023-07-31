@@ -1,0 +1,51 @@
+.trendingSectionDiv {
+    margin-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.createrSectionDiv {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.BrowseSectionDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.DiscoverSectionDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.joinSectionDiv {
+    margin-top: 60px;
+
+}
+
+.HomeSectionDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.FooterDiv {
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .NavbarDiv {
+        padding: 20px;
+    }
+
+    .BrowseSectionDiv {
+        display: none;
+    }
+}

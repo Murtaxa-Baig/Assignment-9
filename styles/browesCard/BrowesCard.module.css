@@ -1,0 +1,10 @@
+.browesDiv{
+    width: 100%;
+    height: auto;
+    background-color: #858584;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.browesCardText{
+    padding: 20px;
+}

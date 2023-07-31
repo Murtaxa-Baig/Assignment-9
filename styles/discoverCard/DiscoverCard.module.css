@@ -1,0 +1,29 @@
+.maindiv {
+    width: 100%;
+    height: auto;
+    background-color: #858584;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.subdiv {
+    padding: 20px;
+}
+
+.proimg {
+    height: 24px;
+    width: 24px;
+    padding-right: 10px;
+}
+
+.lighttext {
+    /* color: #858584; */
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.lasttext{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

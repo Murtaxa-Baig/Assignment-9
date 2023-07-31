@@ -1,0 +1,59 @@
+.homeSectionRow {
+    padding: 20px;
+}
+.homecontainer{
+    margin-top: 20px;
+}
+
+.text_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headingof {
+    margin: 0px;
+
+}
+
+.homeSectionBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divimg {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+
+}
+
+.homeimg {
+    width: 100%;
+    height: 400px;
+}
+.homeSectionMobileView{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    .homeSectionMobileView1{
+        display: none;
+    }
+    .homeSectionMobileView{
+        display: block;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+    .homeSectionBtn{
+        width: 100%;
+        height: auto;
+    }
+    .BtnMobile{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,7 @@
+.navbar{
+    color: #ffffff;
+}
+.navbarUl{
+    display: flex;
+    justify-content: center;
+}

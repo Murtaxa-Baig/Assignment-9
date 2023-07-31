@@ -1,0 +1,90 @@
+.joinContainer {
+        background-color: #858584;
+        border-radius: 25px;
+        margin-top: 15px;
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+}
+
+.joinImage {
+        height: 100%;
+        width: 100%;
+}
+
+.inputfeild {
+        padding: 5px;
+        background-color: #ffffff;
+        color: #000000;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+}
+
+.inputBtn {
+        margin-top: 20px;
+}
+
+.subBtn {
+        margin-left: -15px;
+}
+
+.mobileViewDiv {
+        display: none;
+}
+
+.inputfeildForMobile {
+        display: none;
+}
+
+.btnForMobile {
+        display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+        .joinContainer {
+                padding: 20px;
+                background-color: transparent;
+
+        }
+
+        .joinImage {
+                margin-bottom: 20px;
+        }
+
+        .mobileViewDiv {
+                display: block;
+        }
+
+        .inputfeildForMobile {
+                display: block;
+                padding: 5px;
+                background-color: #ffffff;
+                color: #000000;
+                border: none;
+                outline: none;
+                width: 100%;
+                border-radius: 10px;
+        }
+
+        .btnForMobile {
+                background-color: #A259FF;
+                border: none;
+                border-radius: 10px;
+                width: 100%;
+                padding: 5px;
+                margin-top: 10px;
+                display: block;
+
+        }
+.joinHeading{
+        margin-top: 25px;
+}
+        .inputBtn {
+                display: none;
+        }
+}

@@ -1,0 +1,49 @@
+.maindiv {
+padding: 20px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+.trendingimg {
+    width: 100%;
+    height: 330px;
+
+}
+
+.smalimgdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Smalimg {
+    width: 100px;
+    height: 100px;
+}
+
+.smalbox {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tiny {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}

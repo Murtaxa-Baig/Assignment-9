@@ -1,0 +1,82 @@
+.footerRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.imageHeading {
+    display: flex;
+    align-items: center;
+}
+
+.inputfeild {
+    padding: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.inputBtn {
+    margin-top: 20px;
+}
+
+.subBtn {
+    margin-left: -15px;
+}
+
+.footerTextColor {
+    color: #CCC;
+    font-size: 16px;
+}
+
+
+.mobileViewDiv {
+    display: none;
+}
+
+.inputfeildForMobile {
+    display: none;
+}
+
+.btnForMobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.footerForMobile{
+    padding: 20px;
+}
+    .mobileViewDiv {
+            display: block;
+    }
+
+    .inputfeildForMobile {
+            display: block;
+            padding: 5px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            outline: none;
+            width: 100%;
+            border-radius: 10px;
+    }
+
+    .btnForMobile {
+            background-color: #A259FF;
+            border: none;
+            border-radius: 10px;
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+            display: block;
+
+    }
+
+    .inputBtn {
+            display: none;
+    }
+}

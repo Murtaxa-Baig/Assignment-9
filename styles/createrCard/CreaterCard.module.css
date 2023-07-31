@@ -1,0 +1,92 @@
+.createrCard {
+    padding: 15px;
+    position: relative;
+
+}
+
+.createrCardSubDiv {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #3B3B3B;
+    padding: 20px;
+}
+
+.createrCardHeading {
+    margin-top: 20px;
+}
+
+.spanStyling {
+    color: #858584;
+}
+
+.label {
+    border-radius: 50%;
+    background: #2B2B2B;
+    position: absolute;
+    /* left: 20px;
+    top: 18px; */
+    width: 30px;
+    height: 30px;
+}
+
+.label span {
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.createrCard1{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .createrCard{
+        display: none;
+    }
+    .createrCard1{
+        display: block;
+        margin-top: 10px;
+    }
+    .createrCardMobileView {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .createrCardSubDiv1 {
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        padding: 10px;
+    }
+    .ImageForMobile{
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+    .label {
+        border-radius: 50%;
+        background: #2B2B2B;
+        position: absolute;
+        /* left: 20px;
+        top: 18px; */
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .createrCardHeading{
+        margin-top: 0px;
+    }
+    .spanStyling {
+        padding: 0px;
+        margin: 0px;
+    }
+}
